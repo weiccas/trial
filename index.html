@@ -11,6 +11,15 @@
     font-weight: normal;
     font-style: normal;
 }
+  
+    @font-face{ 
+    font-family: 'Interstate Bold';
+    src: url('Interstate Bold.otf');
+    src: url('Interstate Bold') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
 html{
   font-size:10px
 }
@@ -24,7 +33,7 @@ margin:0;
   }
   
   h1{
-    font-family:'UnitSlab_W06',serif;
+    font-family:'UnitSlab_W06',unset;
     font-size:4rem;
     margin-bottom:0;
     color:#FF377F;
@@ -40,6 +49,7 @@ margin:0;
     font-size:3.25rem;
   }
   h3{
+    font-family:'Interstate Bold';
     font-size:2.5rem;
   }
   #main {
