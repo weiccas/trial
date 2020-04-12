@@ -20,6 +20,20 @@
     font-style: normal;
 }
   
+  @font-face
+    font-family: "context-serif";
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+    unicode-range: U+4E00-9FFF
+
+@font-face
+    font-family: "context-serif";
+    src: url('SegoeUI.ttf');
+    src: url('SegoeUI') format('truetype');
+    unicode-range: U+00-024F
+
+.custom-serif
+    font-family: custom-serif
+  
 html{
   font-size:10px
 }
@@ -93,7 +107,7 @@ ul{
 }
 li{
   margin:16px 0;
-  font-family:'Noto Sherif';
+  font-family:'context-serif';
   font-size: 1rem;
   font-line:1.8;
 }
